@@ -1,19 +1,16 @@
-﻿/*Desarrollar un programa donde  se le solicite al usuario ingresar apellido y calificacion dado esos parametros validar si el alumno esta aprobado o no y le indique con un mensaje el resultado.*/
-
-String nombre, apellido;
-int nota;
-
-System.Console.WriteLine("Ingrese su nombre apellido y nota");
-nombre = Console.ReadLine();
-apellido = Console.ReadLine(); 
-nota = Convert.ToInt32(Console.ReadLine());
-
-if (nota >= 7)
+﻿using System;
+public class ejemplo1
 {
-    System.Console.WriteLine(nombre + " " + apellido + " " + "Esta Aprobado");
+    public static void Main()
+    {
+        System.Console.WriteLine("hola");
+        System.Console.WriteLine(2 + 3);
+        System.Console.WriteLine("2" + "3");
+        System.Console.WriteLine(2 * (3 + 5));
+        System.Console.WriteLine(2 * 3 + 5);
+        //System.Console.WriteLine(3 * "HOLA");
+        //System.Console.WriteLine(hola);
 
-}
-else
-{
-    System.Console.WriteLine(nombre + " " + apellido + " " + "No esta Aprobado");
+        
+    }
 }
